@@ -1,0 +1,217 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#menu{
+    height: 50px;
+    /* background-color: bisque; */
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+    padding: 10px 20px;
+}
+
+.menu-right ul li{
+    list-style: none;
+    padding: 7px;
+}
+
+.menu-right ul{
+    display: flex;
+    gap: 25px;
+}
+
+.menu-right ul li a{
+    text-decoration: none;
+    color: black
+}
+
+.menu-right ul li:hover{
+    background-color: rgb(199, 199, 199);
+}
+
+#big-house{
+    background-image: url(./pictures/architect.jpg);
+    height: 650px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex: flex-wrap;
+    padding-left: 80%;
+    padding-right: 50%;
+    width: 100%;
+   
+}
+
+#big-house{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    padding-left: 80px;
+    padding-right: 50px;
+}
+#big-house{
+    color: white;
+}
+#big-house P b{
+    background-color: black;  
+    padding:20px ;
+}
+#summer p{
+    font-size: 25px;
+    margin:50px ;
+}
+
+.names{
+    position: relative;
+    margin-top: 20px;
+    /* padding-right: 50px;
+    padding-left: 80px; */
+
+
+}
+.names img{
+    height: 300px;
+    width: 300px;
+}
+#pictures{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.names p{
+    position: absolute;
+    padding: 7px;
+    top: 0;
+    background-color: black;
+    color: white;
+}
+#big-house{
+    display: flex;
+    width: 100%;
+}
+.team img{
+    height: 250px;
+    width: 300px;
+}
+
+#file{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    font-size: 20;
+
+    
+}
+.team{
+    flex: flex-wrap;
+    font-size: 20px;
+}
+.hello{
+    flex: flex-wrap;
+    background-color: gray;
+    font-size: 30px;
+}
+.hello :hover{
+    flex: flex-wrap;
+color:  darkgray;
+}
+.how{
+    flex: flex-wrap;
+    margin: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.mine{
+    display: flex;
+    flex: flex-wrap;
+    flex-direction: column;
+    gap: 20px;
+    margin: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.why button{
+    background-color: black;
+    color: whitesmoke;
+}
+.why :hover{
+    background-color: grey;
+} 
+.mine input{
+height: 30px;
+}
+/* .team{
+    padding-left: 9px;
+} */
+
+.yuuu{
+    display: flex;
+    flex: flex-wrap;
+    padding-left: 0;
+}
+.tell{
+    display: flex;
+    flex: flex-wrap;
+    justify-content: center;
+    background-color: black;
+    color: white;
+    padding-left: 80px;
+    padding-right: 50px;
+    
+}
+.gooo :hover{
+    background-color: black;
+    color: green;
+}
+.tell{
+    height: 90px;
+ 
+}
+.weee{
+    display: flex;
+    flex: flex-wrap;
+    /* text-align: center; */
+   justify-content: center;
+    padding-right: 60px;
+    padding-left: 80px;
+}
+.mount{
+    display: flex;
+    flex: flex-wrap;
+    padding-left: 30px;
+    justify-content: center;
+    justify-content: space-around;
+
+}
+
+.where{
+display: flex;
+flex: flex-wrap;
+padding-left: 50px;
+padding-right: 50px;
+width: 250px;
+height: 650px;
+}
+
+
+@media only  screen and (max-width: 1100px) {
+    #file{
+      display: flex;
+      flex: flex-wrap;
+      flex-direction: column;
+justify-content: center;
+padding: 50px;
+
+}
+}
+
+
+
+
+
